@@ -20,7 +20,8 @@ local KeyMap = {
     -- {mods = CTRL, key = 'T', cmd = 'swap_line_up'},
 }
 
--- Translate human readable or sublime's cmd to xs-sci's
+-- Translate human readable or sublime's cmd to xs-sci's, you can supplement the table sk2scik, and welcome send PR to:
+-- https://github.com/x-studio365/EditorKeyMap
 local sk2scik = {
     ['line_transpose'] = 'SCI_LINETRANSPOSE',
     ['swap_line_up'] = 'SCI_MOVESELECTEDLINESUP',
