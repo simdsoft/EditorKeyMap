@@ -5,7 +5,7 @@
 local SHIFT,CTRL,ALT,translateKeyMap = unpack(require('scicmds'))
 
 -- Please edit this table to config custom shortcuts actions
--- The key & cmd is not Case Insensitive(不区分大小写)
+-- The key & cmd is not Case Sensitive(不区分大小写)
 -- For detail usage, see: https://docs.x-studio365.com/
 -- Default KeyMap, see: https://github.com/x-studio365/scintilla/blob/master/src/KeyMap.cxx
 -- The supported commands by xs-sci, see:
