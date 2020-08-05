@@ -1,1 +1,1 @@
-# The x-studio365 EditorKeyMap template.
+# The x-studio EditorKeyMap template.
