@@ -1,15 +1,15 @@
--- The x-studio365 KeyMap config file. 
--- Because x-studio365 use the powerful source editing component `scintilla`, so
--- we regard x-studio365 coding component abbv to: xs-sci
+-- The x-studio KeyMap config file. 
+-- Because x-studio use the powerful source editing component `scintilla`, so
+-- we regard x-studio coding component abbv to: xs-sci
 
 local SHIFT,CTRL,ALT,translateKeyMap = unpack(require('scicmds'))
 
 -- Please edit this table to config custom shortcuts actions
 -- The key & cmd is not Case Sensitive(不区分大小写)
--- For detail usage, see: https://docs.x-studio365.com/
--- Default KeyMap, see: https://github.com/x-studio365/scintilla/blob/master/src/KeyMap.cxx
+-- For detail usage, see: https://docs.x-studio.net/
+-- Default KeyMap, see: https://github.com/simdsoft/scintilla/blob/master/src/KeyMap.cxx
 -- The supported commands by xs-sci, see:
--- https://github.com/x-studio365/x-studio365/blob/master/tools/scicmds_autogen/scicmds.lua
+-- https://github.com/simdsoft/x-studio/blob/master/tools/scicmds_autogen/scicmds.lua
 local KeyMap = {
     -- {mods = SHIFT | CTRL, key = 'L', cmd = 'line_delete'},
     -- {mods = SHIFT | CTRL, key = 'E', cmd = 'duplicate_line'},
@@ -18,7 +18,7 @@ local KeyMap = {
 }
 
 -- Translate human readable or sublime's cmd to xs-sci's, you can supplement the table sk2scik, and welcome send PR to:
--- https://github.com/x-studio365/EditorKeyMap
+-- https://github.com/simdsoft/EditorKeyMap
 local sk2scik = {
     ['line_transpose'] = 'SCI_LINETRANSPOSE',
     ['swap_line_up'] = 'SCI_MOVESELECTEDLINESUP',
